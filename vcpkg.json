@@ -1,0 +1,23 @@
+{
+	"name": "versions-test",
+	"version": "1.0.0",
+	"dependencies": [
+            "pkgconf",
+            "spdlog",
+            "jsoncpp",
+            "curl",
+            "cryptopp",
+            "libyuv",
+            "libwebp",
+            "ixwebsocket",
+            "protobuf",
+            "openssl",
+            "stb",
+            "ffmpeg",
+            "libyuv",
+            "libarchive",
+            "zstd"
+	],
+	"builtin-baseline": "1085a57da0725c19e19586025438e8c16f34c890"
+}
+  

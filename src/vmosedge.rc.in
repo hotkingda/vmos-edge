@@ -1,0 +1,35 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,25,1
+ PRODUCTVERSION 1,0,25,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "MINICAL INTERNATIONAL LIMITED"
+            VALUE "FileVersion", "1.0.25.1"
+            VALUE "InternalName", "vmosedge.exe"
+            VALUE "LegalCopyright", "MINICAL INTERNATIONAL LIMITED Copyright (C) 2024"
+            VALUE "OriginalFilename", "vmosedge.exe"
+            VALUE "ProductName", "VMOSEdge"
+            VALUE "ProductVersion", "1.0.25"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+IDI_APP_ICON ICON "res/vmosedge.ico"

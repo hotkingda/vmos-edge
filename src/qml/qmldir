@@ -1,0 +1,5 @@
+singleton ThemeUI ThemeUI.qml
+singleton AppConfig AppConfig.qml
+singleton KeyMapper KeyMapper.qml
+singleton VRouter VRouter.qml
+singleton AppUtils AppUtils.qml
